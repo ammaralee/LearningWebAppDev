@@ -1,52 +1,110 @@
 body {
   background: #f9e933;
 }
-
 header, main, footer {
   min-width: 855px;
+  padding: 10px;
 }
-
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-
 header {
-  background: white;
+  padding-top: 1em;
+  background: #f9e933;
   overflow: auto;
 }
-
-header h1 {
+h1 {
   float: left;
   width: 570px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
-
 header nav {
   float: right;
   width: 285px;
 }
-
-main {
-  background: white;
-  overflow: auto;
+h3 {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
-
+p {
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+}
+img {
+  float: right;
+  padding-right: 5em;
+}
+main {
+  background: #FFFFFF;
+  overflow: auto;
+  font-family: 'Indie Flower', cursive;
+  color: #000000;
+}
 main .left {
   float: left;
   width: 570px;
 }
-
 main .right {
   float: right;
   width: 285px;
 }
-
+main .head {
+  text-align: center;
+  width: 570px;
+}
 footer .left {
   float: left;
   width: 570px;
 }
-
+main .padding {
+  padding-bottom: 250px;
+}
 footer .sitemap {
   float: right;
   width: 285px;
+}
+footer .address {
+  font-family: 'Lobster Two', cursive;
+}
+
+/* unvisited link */
+
+a:link {
+  color: #0000FF;
+}
+
+/* visited link */
+
+a:visited {
+  color: #0000FF;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: #DC143C;
+}
+
+/* selected link */
+
+a:active {
+  color: #778899;
+}
+div .col {
+  /* Internet Explorer*/
+  -ms-column-count: 2;
+  /* Firefox */
+  -moz-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+.top {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
 }
